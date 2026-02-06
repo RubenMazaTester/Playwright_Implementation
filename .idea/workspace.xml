@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc89d23e-77e2-4523-82c4-0de6e6ce8a62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Playwright learning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pytest/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pytest/test_PytestValidation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pytest/test_ValidatingConftest.py" afterDir="false" />
+    <list default="true" id="fc89d23e-77e2-4523-82c4-0de6e6ce8a62" name="Changes" comment="Setting up the playwright implementation">
+      <change afterPath="$PROJECT_DIR$/Playwright/test_PlayWrightBasics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RubenMazaTester"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RubenMazaTester/Playwright_Implementation.git",
+    "accountId": "ce747367-0f9f-4711-b405-1a14a6ee62d8"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -42,11 +47,15 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for Playwright.test_PlayWrightBasics.test_fasterWay.executor": "Run",
+    "Python tests.Python tests for Playwright.test_PlayWrightBasics.test_mainLocators.executor": "Run",
+    "Python tests.Python tests for Playwright.test_PlayWrightBasics.test_playWrightBasics.executor": "Run",
     "Python tests.Python tests for TestPytestValidation.test_firstcheck.executor": "Run",
     "Python tests.Python tests for test_ValidatingConftest.test_configModuleScope2.executor": "Run",
     "Python tests.Python tests for test_ValidatingConftest.test_sessionValidation.executor": "Run",
     "Python tests.Python tests in TestPytestValidation.py.executor": "Run",
     "Python tests.Python tests in ValidatingConftest.py.executor": "Run",
+    "Python tests.Python tests in test_PlayWrightBasics.py.executor": "Run",
     "Python tests.Python tests in test_PytestValidation.py.executor": "Run",
     "Python tests.Python tests in test_ValidatingConftest.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -62,8 +71,40 @@
       <recent name="C:\Users\Dell\OneDrive\Escritorio\Playwright learning\Pytest" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Python tests for Pytest.test_PytestValidation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for Playwright.test_PlayWrightBasics.test_mainLocators">
+    <configuration name="Python tests for Playwright.test_PlayWrightBasics.test_fasterWay" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="Playwright learning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;Playwright.test_PlayWrightBasics.test_fasterWay&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Playwright.test_PlayWrightBasics.test_mainLocators" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="Playwright learning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;Playwright.test_PlayWrightBasics.test_mainLocators&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Playwright.test_PlayWrightBasics.test_playWrightBasics" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Playwright learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,7 +116,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Pytest.test_PytestValidation&quot;" />
+      <option name="_new_target" value="&quot;Playwright.test_PlayWrightBasics.test_playWrightBasics&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -111,6 +152,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_PlayWrightBasics.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Playwright learning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Playwright/test_PlayWrightBasics.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_PytestValidation.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Playwright learning" />
       <option name="ENV_FILES" value="" />
@@ -127,29 +184,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_ValidatingConftest.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Playwright learning" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Pytest/test_ValidatingConftest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_PlayWrightBasics.py" />
+        <item itemvalue="Python tests.Python tests for Playwright.test_PlayWrightBasics.test_playWrightBasics" />
         <item itemvalue="Python tests.Python tests for Pytest.test_ValidatingConftest.test_configModuleScope2" />
         <item itemvalue="Python tests.Python tests for Pytest.test_ValidatingConftest.test_sessionValidation" />
         <item itemvalue="Python tests.Python tests in test_PytestValidation.py" />
-        <item itemvalue="Python tests.Python tests in test_ValidatingConftest.py" />
-        <item itemvalue="Python tests.Python tests for Pytest.test_PytestValidation" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +209,30 @@
       <option name="presentableId" value="Default" />
       <updated>1770338098483</updated>
     </task>
+    <task id="LOCAL-00001" summary="Setting up the playwright implementation">
+      <option name="closed" value="true" />
+      <created>1770346327719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770346327719</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setting up the playwright implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting up the playwright implementation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Playwright/test_PlayWrightBasics.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

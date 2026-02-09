@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc89d23e-77e2-4523-82c4-0de6e6ce8a62" name="Changes" comment="Automating the first pages">
-      <change afterPath="$PROJECT_DIR$/Playwright/test_MouseHover.py" afterDir="false" />
+    <list default="true" id="fc89d23e-77e2-4523-82c4-0de6e6ce8a62" name="Changes" comment="Mouse hover and web table handling tests">
+      <change afterPath="$PROJECT_DIR$/ApiPlaywright/test_webApi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/ApiBase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Playwright/test_WenbTableHandling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Playwright/test_WenbTableHandling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +70,8 @@
     "Python tests.Python tests in test_ValidatingConftest.py.executor": "Run",
     "Python tests.Python tests in test_WenbTableHandling.py.executor": "Run",
     "Python tests.Python tests in test_selectingItemsFromList.py.executor": "Run",
+    "Python tests.Python tests in test_webApi.py.executor": "Run",
+    "Python.ApiBase.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -83,7 +85,30 @@
       <recent name="C:\Users\Dell\OneDrive\Escritorio\Playwright learning\Pytest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_MouseHover.py">
+  <component name="RunManager" selected="Python tests.Python tests in test_webApi.py">
+    <configuration name="ApiBase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Playwright learning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Utils/ApiBase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for Playwright.test_PlayWrightBasics.test_fasterWay" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="Playwright learning" />
       <option name="ENV_FILES" value="" />
@@ -228,38 +253,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_PlayWrightBasics.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Playwright learning" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Playwright/test_PlayWrightBasics.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_PresenceOfInfoText.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Playwright learning" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Playwright/test_PresenceOfInfoText.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests in test_UIVisibilityValidations.py" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="Playwright learning" />
       <option name="ENV_FILES" value="" />
@@ -308,13 +301,29 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_webApi.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Playwright learning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ApiPlaywright/test_webApi.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_webApi.py" />
+        <item itemvalue="Python.ApiBase" />
         <item itemvalue="Python tests.Python tests for Playwright.test_WenbTableHandling.test_tableHandling" />
         <item itemvalue="Python tests.Python tests in test_FrameHandling.py" />
         <item itemvalue="Python tests.Python tests for Playwright.test_UIVisibilityValidations.test_UiVisibility" />
-        <item itemvalue="Python tests.Python tests in test_PresenceOfInfoText.py" />
-        <item itemvalue="Python tests.Python tests in test_PlayWrightBasics.py" />
       </list>
     </recent_temporary>
   </component>
@@ -349,13 +358,22 @@
       <option name="project" value="LOCAL" />
       <updated>1770355400144</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Mouse hover and web table handling tests">
+      <option name="closed" value="true" />
+      <created>1770596650256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770596650256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting up the playwright implementation" />
     <MESSAGE value="Automating the first pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Automating the first pages" />
+    <MESSAGE value="Mouse hover and web table handling tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mouse hover and web table handling tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

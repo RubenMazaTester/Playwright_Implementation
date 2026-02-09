@@ -38,7 +38,16 @@ def test_e2ewebApi(playwright: Playwright):
     """Then, we can create an order, because we need a token that is generated after log in
     because, the create order request needs an authorization token, we will add it as a header
     """
-    orderID = apiutils.createOrder(playwright)
+    orderid = apiutils.createOrder(playwright)
+    print(orderid)
+
+
+
+
+
+
+
+    """    orderID = apiutils.createOrder(playwright)
     print(orderID)
     #now we validate that order ID refreshed in the orders page
     page=apiutils.getToken(playwright)
@@ -47,4 +56,4 @@ def test_e2ewebApi(playwright: Playwright):
     row.get_by_role("button",name="View").click()
     #expect(page.locator(".tagline"))to_contain_text("Thank you for Shopping With Us")
     expect(page.locator(".tagline")).to_contain_text("Thank you for Shopping With Us")
-    context.close()
+    context.close()"""

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc89d23e-77e2-4523-82c4-0de6e6ce8a62" name="Changes" comment="Automating the first pages">
-      <change afterPath="$PROJECT_DIR$/Playwright/test_FrameHandling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Playwright/test_UIVisibilityValidations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Playwright/test_WenbTableHandling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playwright/test_MouseHover.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Playwright/test_WenbTableHandling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Playwright/test_WenbTableHandling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "Python tests.Python tests for Playwright.test_PlayWrightBasics.test_playWrightBasics.executor": "Run",
     "Python tests.Python tests for Playwright.test_PresenceOfInfoText.test_infoTextAssert.executor": "Run",
     "Python tests.Python tests for Playwright.test_UIVisibilityValidations.test_UiVisibility.executor": "Run",
+    "Python tests.Python tests for Playwright.test_WenbTableHandling.test_tableHandling.executor": "Debug",
     "Python tests.Python tests for TestPytestValidation.test_firstcheck.executor": "Run",
     "Python tests.Python tests for test_ValidatingConftest.test_configModuleScope2.executor": "Run",
     "Python tests.Python tests for test_ValidatingConftest.test_sessionValidation.executor": "Run",
@@ -62,11 +62,13 @@
     "Python tests.Python tests in test_ChildWindows.py.executor": "Run",
     "Python tests.Python tests in test_FirefoxBrowser.py.executor": "Run",
     "Python tests.Python tests in test_FrameHandling.py.executor": "Run",
+    "Python tests.Python tests in test_MouseHover.py.executor": "Run",
     "Python tests.Python tests in test_PlayWrightBasics.py.executor": "Run",
     "Python tests.Python tests in test_PresenceOfInfoText.py.executor": "Run",
     "Python tests.Python tests in test_PytestValidation.py.executor": "Run",
     "Python tests.Python tests in test_UIVisibilityValidations.py.executor": "Run",
     "Python tests.Python tests in test_ValidatingConftest.py.executor": "Run",
+    "Python tests.Python tests in test_WenbTableHandling.py.executor": "Run",
     "Python tests.Python tests in test_selectingItemsFromList.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -81,7 +83,7 @@
       <recent name="C:\Users\Dell\OneDrive\Escritorio\Playwright learning\Pytest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_FrameHandling.py">
+  <component name="RunManager" selected="Python tests.Python tests in test_MouseHover.py">
     <configuration name="Python tests for Playwright.test_PlayWrightBasics.test_fasterWay" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="Playwright learning" />
       <option name="ENV_FILES" value="" />
@@ -114,22 +116,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for Playwright.test_PlayWrightBasics.test_playWrightBasics" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Playwright learning" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Playwright.test_PlayWrightBasics.test_playWrightBasics&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for Playwright.test_PresenceOfInfoText.test_infoTextAssert" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="Playwright learning" />
       <option name="ENV_FILES" value="" />
@@ -159,6 +145,22 @@
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;Playwright.test_UIVisibilityValidations.test_UiVisibility&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Playwright.test_WenbTableHandling.test_tableHandling" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Playwright learning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Playwright.test_WenbTableHandling.test_tableHandling&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -210,6 +212,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_MouseHover.py" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="Playwright learning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Playwright/test_MouseHover.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_PlayWrightBasics.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Playwright learning" />
       <option name="ENV_FILES" value="" />
@@ -258,6 +276,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_WenbTableHandling.py" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="Playwright learning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Playwright/test_WenbTableHandling.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_selectingItemsFromList.py" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="Playwright learning" />
       <option name="ENV_FILES" value="" />
@@ -276,11 +310,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for Playwright.test_WenbTableHandling.test_tableHandling" />
         <item itemvalue="Python tests.Python tests in test_FrameHandling.py" />
         <item itemvalue="Python tests.Python tests for Playwright.test_UIVisibilityValidations.test_UiVisibility" />
         <item itemvalue="Python tests.Python tests in test_PresenceOfInfoText.py" />
         <item itemvalue="Python tests.Python tests in test_PlayWrightBasics.py" />
-        <item itemvalue="Python tests.Python tests for Playwright.test_PlayWrightBasics.test_playWrightBasics" />
       </list>
     </recent_temporary>
   </component>
